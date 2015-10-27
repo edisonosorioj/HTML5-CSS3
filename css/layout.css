@@ -1,0 +1,22 @@
+/* Layout */
+
+header, footer {
+	background: #282828;
+	position: absolute;
+	width: 100%;
+}
+
+header img {
+	width: 250px;
+}
+
+nav ul li{
+	color: #ffffff;
+	display: inline;
+}
+
+footer{
+	color: #ffffff;
+	padding: 20px 0;
+	box-sizing: border-box;
+}

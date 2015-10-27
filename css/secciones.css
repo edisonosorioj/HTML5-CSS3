@@ -1,0 +1,12 @@
+/* Secciones de mi sitio */
+
+.home{
+	background: #ffffff url('assets/bg.jpg') no-repeat center center fixed;
+	background-size: cover; 
+	color: #ffffff;
+	text-align: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	padding: 20% 0;
+	box-sizing: border-box; /* Me permite bloquear el box para que no crezca */
+}
