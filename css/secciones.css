@@ -1,7 +1,7 @@
 /* Secciones de mi sitio */
 
 .home{
-	background: #ffffff url('assets/bg.jpg') no-repeat center center fixed;
+	background: #ffffff url('../assets/bg.jpg') no-repeat center center fixed;
 	background-size: cover; 
 	color: #ffffff;
 	text-align: center;
