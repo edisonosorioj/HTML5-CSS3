@@ -1,10 +1,18 @@
 /* Editorial */
 
-h1{
+h1 {
 	font-size: 50px;
 	font-weight: 700;
 }
 
-a{
+a {
 	text-decoration: none;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ol li{
+	float: left;
 }

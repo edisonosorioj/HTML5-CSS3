@@ -9,12 +9,17 @@
 	-moz-border-radius: 5px;
 	-webkit-transition: 0.2s;
 	width: 100%;
+	margin-right: 10px;
 }
 
 .boton:hover{
 	background-color: #e49100;
 	border-top: 6px solid #FFb400;
 	border-bottom: 0 none;
+}
+
+.boton:last-of-type {
+	margin-right: 0px;
 }
 
 .boton_a{
