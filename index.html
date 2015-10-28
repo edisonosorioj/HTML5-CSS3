@@ -9,22 +9,40 @@
 	</head>
 	<body>
 		<header>
-			<img src="assets/logo.svg" />
-			<nav>
-				<ul>
-					<li>GATOS</li>
-					<li>PERROS</li>
-					<li>ACERCA</li>
-				</ul>
-			</nav>
+			<div class="container">
+				<nav class="row between middle">
+					<div class="col-4">
+						<img src="assets/logo.svg" />
+					</div>
+					<div class="col-3">
+						<ul class="row">
+							<li class="col">GATOS</li>
+							<li class="col">PERROS</li>
+							<li class="col">ACERCA</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</header>
+
 		<section class='home'>
-			<h1>APRENDE SOBRE LAS MASCOTAS MÁS POPULARES DE INTERNET</h1>
-			<a href="gatos.html" class='boton'>Gatos</a>
-			<a href="perros.html" class='boton'>Perros</a>
+			<div class="container">
+				<div class="row center">
+					<h1 class="col-10">APRENDE SOBRE LAS MASCOTAS MÁS POPULARES DE INTERNET</h1>
+					<div class="col-3 boton">
+						<a href="gatos.html" class="boton_a">Gatos</a>
+					</div>
+					<div class="col-3 boton">
+						<a href="perros.html" class="boton_a">Perros</a>
+					</div>
+				</div>
+			</div>
 		</section>
 	</body>
+
 	<footer>
-		2015 - <a href="http://twitter.com/edisonosorio7">Edison Osorio</a>
+		<div class="container">
+		2015 - <a href="http://twitter.com/edisonosorio7" class="layout_a">Edison Osorio</a>
+		</div>
 	</footer>
 </html>

@@ -2,21 +2,18 @@
 
 header, footer {
 	background: #282828;
+	box-sizing: border-box;
+	color: #c3c1c1;
+	padding: 20px 0;
 	position: absolute;
 	width: 100%;
+}
+
+.layout_a{
+	color: #c3c1c1;
 }
 
 header img {
 	width: 250px;
 }
 
-nav ul li{
-	color: #ffffff;
-	display: inline;
-}
-
-footer{
-	color: #ffffff;
-	padding: 20px 0;
-	box-sizing: border-box;
-}

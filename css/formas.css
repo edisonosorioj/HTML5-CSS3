@@ -4,10 +4,23 @@
 	background-color: #FFb400;
 	border-bottom: 6px solid #e49100;
 	border-radius: 5px;
-	color: #ffffff;
-	padding: 20px 60px;
-	text-decoration: none;
-	text-transform: uppercase;
+	padding: 20px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
+	-webkit-transition: 0.2s;
+	width: 100%;
 }
+
+.boton:hover{
+	background-color: #e49100;
+	border-top: 6px solid #FFb400;
+	border-bottom: 0 none;
+}
+
+.boton_a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;	
+}
+
+
