@@ -1,18 +1,25 @@
 /* Secciones de mi sitio */
 
 .home{
-	background-size: cover; 
+	background-size: cover;
 	background: #ffffff url('../assets/bg.jpg') no-repeat center center fixed;
+	box-sizing: border-box; /* Me permite bloquear el box para que no crezca */
 	color: #ffffff;
+	height: 100%;
 	padding: 20% 0;
 	text-align: center;
-	box-sizing: border-box; /* Me permite bloquear el box para que no crezca */
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
-	height: 100%;
 
 }
 
-.full-height{
+.home2{
+	background-size: cover;
+	background: #ccc;
+	box-sizing: border-box;
+	color: #000000;
 	height: 100%;
+	padding: 20% 0;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
 }

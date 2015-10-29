@@ -5,14 +5,20 @@ h1 {
 	font-weight: 700;
 }
 
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
 a {
 	text-decoration: none;
 }
-
-ol {
-	list-style: decimal;
-}
-
+/*
 ol li{
-	float: left;
+	counter-increment: step;
 }
+
+ol li::before {
+	content: counter(step);
+	display: inline-block;
+}*/
